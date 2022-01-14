@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-supervisor app.js"
+    "start": "node-supervisor app_2.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@koa/router": "^10.1.1",
     "cheerio": "^1.0.0-rc.10",
+    "eventproxy": "^1.0.0",
     "koa": "^2.13.4",
     "superagent": "^7.0.2",
     "supervisor": "^0.12.0",

@@ -1,3 +1,8 @@
+/**
+ * 基于 superagent cheerio 实现爬页面功能
+ * 
+ */
+
 const Koa = require("koa");
 const Router = require("@koa/router");
 const utility = require("utility");
@@ -24,9 +29,6 @@ router.get("/", async (ctx, next) => {
   ctx.body = items;
 });
 
-router.get("/about", (ctx, next) => {
-  ctx.body = "介绍页面";
-});
 
 app.use(router.routes()).use(router.allowedMethods());
 
